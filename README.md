@@ -16,3 +16,18 @@ The application uses the `chromadb` library to store documents in a vector embed
     ```sh
     cd ollama-embedding-model
     ```
+
+3. Download and run the Ollama model:
+    ```sh
+    ollama download model-name
+    ollama run model-name
+    ```
+
+## Experimentation
+
+This project also includes experimentation with embedding models as described in [this blog post](https://ollama.com/blog/embedding-models). Specifically, the `mxbai-embed-large` model was used:
+
+```sh
+ollama pull mxbai-embed-large
+```
+
